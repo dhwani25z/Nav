@@ -1,0 +1,106 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.app {
+  width: 100%;
+  max-width: 600px;
+  padding: 30px;
+  background-color: #fff;
+  border-radius: 8px;
+  border: 1px solid gray;
+}
+
+h1 {
+  text-align: center;
+  color: #093679;
+  margin-bottom: 20px;
+  text-decoration: underline;
+}
+
+/* Form styling */
+.feedback-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+label {
+  font-size: 18px;
+  color: #555;
+  font-weight: bold;
+}
+
+.stars {
+  display: flex;
+  gap: 5px;
+}
+
+textarea {
+  width: 95%;
+  height: 50px;
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.submit-button {
+  padding: 10px;
+  font-size: 16px;
+  background-color: #ffe229;
+  color: #333;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Feedback card styling */
+.feedback-container {
+  display: grid; 
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 15px;
+  margin-top: 30px;
+}
+
+
+.feedback-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 15px;
+  background-color: #fff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+}
+
+.stars {
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.comment {
+  font-size: 14px;
+  color: #333;
+  font-size: 18px;
+}
+
+.movie {
+  font-size: 14px;
+  color: #333;
+  font-size: 22px;
+  font-weight: 700;
+}
